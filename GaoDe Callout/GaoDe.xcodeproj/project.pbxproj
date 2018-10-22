@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D681F55C32DD7CBBFE70C65 /* libPods-GaoDe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 909727A1435FFD3789A198DE /* libPods-GaoDe.a */; };
+		723642FF1E65129800E355CC /* BusPointCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 723642FD1E65129800E355CC /* BusPointCell.m */; };
+		723643001E65129800E355CC /* BusPointCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723642FE1E65129800E355CC /* BusPointCell.xib */; };
+		723643031E65141B00E355CC /* CalloutMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 723643021E65141B00E355CC /* CalloutMapAnnotation.m */; };
+		726976851E4DB38300999377 /* CustomPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 726976841E4DB38300999377 /* CustomPointAnnotation.m */; };
+		726976881E4DB3AA00999377 /* QTMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 726976871E4DB3AA00999377 /* QTMapViewController.m */; };
+		7269768B1E4DB5D000999377 /* CallOutAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269768A1E4DB5D000999377 /* CallOutAnnotationView.m */; };
+		72E6E5521E261FEB0040F887 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E6E5511E261FEB0040F887 /* main.m */; };
+		72E6E5551E261FEB0040F887 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E6E5541E261FEB0040F887 /* AppDelegate.m */; };
+		72E6E55B1E261FEB0040F887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72E6E5591E261FEB0040F887 /* Main.storyboard */; };
+		72E6E55D1E261FEB0040F887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72E6E55C1E261FEB0040F887 /* Assets.xcassets */; };
+		72E6E5601E261FEB0040F887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72E6E55E1E261FEB0040F887 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		723642FC1E65129800E355CC /* BusPointCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusPointCell.h; sourceTree = "<group>"; };
+		723642FD1E65129800E355CC /* BusPointCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusPointCell.m; sourceTree = "<group>"; };
+		723642FE1E65129800E355CC /* BusPointCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusPointCell.xib; sourceTree = "<group>"; };
+		723643011E65141B00E355CC /* CalloutMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalloutMapAnnotation.h; sourceTree = "<group>"; };
+		723643021E65141B00E355CC /* CalloutMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalloutMapAnnotation.m; sourceTree = "<group>"; };
+		726976831E4DB38300999377 /* CustomPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPointAnnotation.h; sourceTree = "<group>"; };
+		726976841E4DB38300999377 /* CustomPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPointAnnotation.m; sourceTree = "<group>"; };
+		726976861E4DB3AA00999377 /* QTMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTMapViewController.h; sourceTree = "<group>"; };
+		726976871E4DB3AA00999377 /* QTMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTMapViewController.m; sourceTree = "<group>"; };
+		726976891E4DB5D000999377 /* CallOutAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallOutAnnotationView.h; sourceTree = "<group>"; };
+		7269768A1E4DB5D000999377 /* CallOutAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallOutAnnotationView.m; sourceTree = "<group>"; };
+		72E6E54D1E261FEB0040F887 /* GaoDe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaoDe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72E6E5511E261FEB0040F887 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72E6E5531E261FEB0040F887 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72E6E5541E261FEB0040F887 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72E6E55A1E261FEB0040F887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72E6E55C1E261FEB0040F887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72E6E55F1E261FEB0040F887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72E6E5611E261FEB0040F887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81DFDE52346EABBF4FFEF250 /* Pods-GaoDe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaoDe.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaoDe/Pods-GaoDe.release.xcconfig"; sourceTree = "<group>"; };
+		909727A1435FFD3789A198DE /* libPods-GaoDe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GaoDe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4294A52CC66245D7F65F64 /* Pods-GaoDe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaoDe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaoDe/Pods-GaoDe.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72E6E54A1E261FEB0040F887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D681F55C32DD7CBBFE70C65 /* libPods-GaoDe.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		679DAF78F2C6AE364361218D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC4294A52CC66245D7F65F64 /* Pods-GaoDe.debug.xcconfig */,
+				81DFDE52346EABBF4FFEF250 /* Pods-GaoDe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		72E6E5441E261FEB0040F887 = {
+			isa = PBXGroup;
+			children = (
+				72E6E54F1E261FEB0040F887 /* GaoDe */,
+				72E6E54E1E261FEB0040F887 /* Products */,
+				679DAF78F2C6AE364361218D /* Pods */,
+				EEBC6AE59C6F18E24ED32DB5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72E6E54E1E261FEB0040F887 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72E6E54D1E261FEB0040F887 /* GaoDe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72E6E54F1E261FEB0040F887 /* GaoDe */ = {
+			isa = PBXGroup;
+			children = (
+				726976891E4DB5D000999377 /* CallOutAnnotationView.h */,
+				7269768A1E4DB5D000999377 /* CallOutAnnotationView.m */,
+				726976831E4DB38300999377 /* CustomPointAnnotation.h */,
+				726976841E4DB38300999377 /* CustomPointAnnotation.m */,
+				723643011E65141B00E355CC /* CalloutMapAnnotation.h */,
+				723643021E65141B00E355CC /* CalloutMapAnnotation.m */,
+				723642FC1E65129800E355CC /* BusPointCell.h */,
+				723642FD1E65129800E355CC /* BusPointCell.m */,
+				723642FE1E65129800E355CC /* BusPointCell.xib */,
+				72E6E5531E261FEB0040F887 /* AppDelegate.h */,
+				72E6E5541E261FEB0040F887 /* AppDelegate.m */,
+				72E6E5591E261FEB0040F887 /* Main.storyboard */,
+				72E6E55C1E261FEB0040F887 /* Assets.xcassets */,
+				72E6E55E1E261FEB0040F887 /* LaunchScreen.storyboard */,
+				72E6E5611E261FEB0040F887 /* Info.plist */,
+				72E6E5501E261FEB0040F887 /* Supporting Files */,
+				726976861E4DB3AA00999377 /* QTMapViewController.h */,
+				726976871E4DB3AA00999377 /* QTMapViewController.m */,
+			);
+			path = GaoDe;
+			sourceTree = "<group>";
+		};
+		72E6E5501E261FEB0040F887 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72E6E5511E261FEB0040F887 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEBC6AE59C6F18E24ED32DB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				909727A1435FFD3789A198DE /* libPods-GaoDe.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72E6E54C1E261FEB0040F887 /* GaoDe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72E6E5641E261FEB0040F887 /* Build configuration list for PBXNativeTarget "GaoDe" */;
+			buildPhases = (
+				BCECDDCDEB506C8A0ED52123 /* [CP] Check Pods Manifest.lock */,
+				72E6E5491E261FEB0040F887 /* Sources */,
+				72E6E54A1E261FEB0040F887 /* Frameworks */,
+				72E6E54B1E261FEB0040F887 /* Resources */,
+				FCC19453E8F589AF02AECE40 /* [CP] Embed Pods Frameworks */,
+				AF62E5CD6899B157163365A0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaoDe;
+			productName = GaoDe;
+			productReference = 72E6E54D1E261FEB0040F887 /* GaoDe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72E6E5451E261FEB0040F887 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = QT;
+				TargetAttributes = {
+					72E6E54C1E261FEB0040F887 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CW23JJ23BD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 72E6E5481E261FEB0040F887 /* Build configuration list for PBXProject "GaoDe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72E6E5441E261FEB0040F887;
+			productRefGroup = 72E6E54E1E261FEB0040F887 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72E6E54C1E261FEB0040F887 /* GaoDe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72E6E54B1E261FEB0040F887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E6E5601E261FEB0040F887 /* LaunchScreen.storyboard in Resources */,
+				723643001E65129800E355CC /* BusPointCell.xib in Resources */,
+				72E6E55D1E261FEB0040F887 /* Assets.xcassets in Resources */,
+				72E6E55B1E261FEB0040F887 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF62E5CD6899B157163365A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaoDe/Pods-GaoDe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCECDDCDEB506C8A0ED52123 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCC19453E8F589AF02AECE40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaoDe/Pods-GaoDe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72E6E5491E261FEB0040F887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7269768B1E4DB5D000999377 /* CallOutAnnotationView.m in Sources */,
+				723643031E65141B00E355CC /* CalloutMapAnnotation.m in Sources */,
+				726976881E4DB3AA00999377 /* QTMapViewController.m in Sources */,
+				726976851E4DB38300999377 /* CustomPointAnnotation.m in Sources */,
+				723642FF1E65129800E355CC /* BusPointCell.m in Sources */,
+				72E6E5551E261FEB0040F887 /* AppDelegate.m in Sources */,
+				72E6E5521E261FEB0040F887 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72E6E5591E261FEB0040F887 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72E6E55A1E261FEB0040F887 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72E6E55E1E261FEB0040F887 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72E6E55F1E261FEB0040F887 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72E6E5621E261FEB0040F887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72E6E5631E261FEB0040F887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72E6E5651E261FEB0040F887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC4294A52CC66245D7F65F64 /* Pods-GaoDe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CW23JJ23BD;
+				INFOPLIST_FILE = GaoDe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QinTing.GaoDe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		72E6E5661E261FEB0040F887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81DFDE52346EABBF4FFEF250 /* Pods-GaoDe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CW23JJ23BD;
+				INFOPLIST_FILE = GaoDe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QinTing.GaoDe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72E6E5481E261FEB0040F887 /* Build configuration list for PBXProject "GaoDe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72E6E5621E261FEB0040F887 /* Debug */,
+				72E6E5631E261FEB0040F887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72E6E5641E261FEB0040F887 /* Build configuration list for PBXNativeTarget "GaoDe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72E6E5651E261FEB0040F887 /* Debug */,
+				72E6E5661E261FEB0040F887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72E6E5451E261FEB0040F887 /* Project object */;
+}

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="3" customClass="BusPointCell">
+            <rect key="frame" x="0.0" y="0.0" width="230" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="0" translatesAutoresizingMaskIntoConstraints="NO" id="4">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="243"/>
+                        <constraint firstAttribute="height" constant="30" id="256"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="车牌:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="49" id="16"/>
+                        <constraint firstAttribute="height" constant="21" id="27"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="北京市上地南口" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="174" id="130"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="京A02009" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="128" id="225"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="速度:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="219"/>
+                        <constraint firstAttribute="width" constant="42" id="220"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="12km/h" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="73">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="62" id="84"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="方向:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="36" id="91"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="正北" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="93">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="97"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="位置:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="110">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="146"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="13" firstAttribute="top" secondItem="3" secondAttribute="top" id="168"/>
+                <constraint firstItem="23" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="76" id="171"/>
+                <constraint firstItem="23" firstAttribute="top" secondItem="3" secondAttribute="top" id="175"/>
+                <constraint firstItem="23" firstAttribute="baseline" secondItem="13" secondAttribute="baseline" id="176"/>
+                <constraint firstItem="68" firstAttribute="leading" secondItem="13" secondAttribute="leading" id="186"/>
+                <constraint firstItem="73" firstAttribute="baseline" secondItem="68" secondAttribute="baseline" id="189"/>
+                <constraint firstItem="73" firstAttribute="top" secondItem="68" secondAttribute="top" id="190"/>
+                <constraint firstItem="73" firstAttribute="leading" secondItem="23" secondAttribute="leading" id="192"/>
+                <constraint firstItem="85" firstAttribute="top" secondItem="73" secondAttribute="top" id="193"/>
+                <constraint firstItem="85" firstAttribute="baseline" secondItem="73" secondAttribute="baseline" id="195"/>
+                <constraint firstItem="93" firstAttribute="top" secondItem="85" secondAttribute="top" id="199"/>
+                <constraint firstItem="93" firstAttribute="baseline" secondItem="85" secondAttribute="baseline" id="200"/>
+                <constraint firstItem="110" firstAttribute="leading" secondItem="68" secondAttribute="leading" id="202"/>
+                <constraint firstItem="110" firstAttribute="trailing" secondItem="68" secondAttribute="trailing" id="203"/>
+                <constraint firstItem="110" firstAttribute="top" secondItem="3" secondAttribute="top" constant="31" id="206"/>
+                <constraint firstItem="17" firstAttribute="top" secondItem="110" secondAttribute="top" id="209"/>
+                <constraint firstItem="17" firstAttribute="leading" secondItem="73" secondAttribute="leading" id="210"/>
+                <constraint firstItem="17" firstAttribute="baseline" secondItem="110" secondAttribute="baseline" id="211"/>
+                <constraint firstItem="13" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="50" id="224"/>
+                <constraint firstItem="85" firstAttribute="centerX" secondItem="23" secondAttribute="centerX" id="247"/>
+                <constraint firstAttribute="trailing" secondItem="93" secondAttribute="trailing" constant="36" id="248"/>
+                <constraint firstItem="4" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="5" id="250"/>
+                <constraint firstItem="68" firstAttribute="top" secondItem="3" secondAttribute="top" constant="14" id="255"/>
+                <constraint firstItem="4" firstAttribute="centerY" secondItem="3" secondAttribute="centerY" id="VTn-4W-lpd"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="aliasLabel" destination="23" id="151"/>
+                <outlet property="degreeLabel" destination="93" id="153"/>
+                <outlet property="leftImageView" destination="4" id="rgu-VV-fYR"/>
+                <outlet property="nameLabel" destination="17" id="154"/>
+                <outlet property="speedLabel" destination="73" id="152"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="0" width="30" height="30"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>
